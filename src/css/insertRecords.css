@@ -1,0 +1,178 @@
+.insertRecords{
+width: 100%;
+height: auto;
+display: flex;
+}
+
+
+.insertRecords .right{
+background-color: rgb(243, 243, 243);
+width: 81%;
+
+} 
+
+.insertRecords .right h1{
+
+text-align: center;
+font-size: 22px;
+color: rgb(243, 5, 5);
+}
+
+.insertRecords .right .tables{
+position: relative;
+width: 96%;
+margin-left: 2%;
+height: 500px;
+padding-left: 5%;
+margin-bottom: 5%;
+
+padding-bottom: 4%;
+overflow-x: hidden;
+overflow-y: auto;
+box-sizing: border-box;
+background-color: #fff;
+}
+
+.insertRecords .right .tables::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.insertRecords .right .tables::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.insertRecords .right .tables::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.insertRecords .right .tables::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
+
+
+
+
+.insertRecords .right .tables .th{
+width: 93%;
+ box-sizing: border-box;
+display: flex;
+overflow: hidden;
+
+  position: sticky;
+top: 0%;
+    z-index: 10;
+color: rgb(255, 255, 255);
+background-color: rgb(83, 83, 83);
+overflow: hidden;
+}
+
+
+
+
+.insertRecords .right .tables .RollNumber{
+width: 120px;
+text-align: center;
+height: 40px;
+line-height: 40px;
+font-size: 16px;
+font-weight: 700;
+
+}
+
+.insertRecords .right .tables .name{
+width: 340px;
+text-align: center;
+height: 40px;
+line-height: 40px;
+font-size: 16px;
+font-weight: 700;
+
+
+}
+.insertRecords .right .tables .age{
+width: 110px;
+text-align: center;
+height: 40px;
+line-height: 40px;
+font-size: 16px;
+font-weight: 700;
+
+
+}
+.insertRecords .right .tables .class{
+width: 180px;
+text-align: center;
+height: 40px;
+line-height: 40px;
+font-size: 16px;
+font-weight: 700;
+
+
+}
+.insertRecords .right .tables .section{
+width: 180px;
+text-align: center;
+height: 40px;
+line-height: 40px;
+font-size: 16px;
+font-weight: 700;
+
+
+}
+
+.insertRecords .right .tables .gender{
+width: 130px;
+text-align: center;
+height: 40px;
+line-height: 40px;
+font-size: 16px;
+font-weight: 700;
+
+
+}
+
+
+
+
+
+/* data */
+.insertRecords .right .tables #add{
+color: rgb(240, 2, 2);
+font-size: 20px;
+}
+
+
+.insertRecords .right .tables .data .td{
+position: relative;
+top: 0;
+left: 0;
+overflow: hidden;
+
+display: flex;
+width: 93%;
+height: auto;
+border-bottom: 1px solid rgb(77, 77, 77);
+
+}
+
+
+.insertRecords .right .tables  h4{
+text-align: left;
+padding-bottom: 5%;
+}
+
+
+.insertRecords .right .tables .data .td:nth-child(odd) {
+  background: rgb(238, 238, 238);
+}
+
+.insertRecords .right .tables .data .td:hover{
+background-color: rgb(159, 159, 159);
+color: white;
+}

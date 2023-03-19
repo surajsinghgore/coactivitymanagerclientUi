@@ -1,0 +1,51 @@
+body{
+
+background:none;
+}
+.admin{
+
+width: 100%;
+height: auto;
+display: flex;
+}
+
+
+
+
+
+
+/* right side bar main */
+.admin .right-section{
+width: 81%;
+background-color: rgb(255, 255, 255);
+}
+.admin .right-section .homePage{
+position: relative;
+width: 94%;
+margin-left: 3%;
+box-sizing: border-box;
+height: 700px;
+
+}
+.admin .right-section .homePage h1{
+text-align: center;
+padding-top: 2%;
+font-size: 35px;
+color: rgb(246, 26, 26);
+text-shadow: 2px 2px 19px rgb(255, 197, 197);
+}
+
+.admin .right-section .homePage #banner{
+width: 70%;
+margin-left: 15%;
+margin-top: -3%;
+}
+.admin .right-section .homePage footer{
+position: absolute;
+bottom: 5%;
+left: 3%;
+text-align: left;
+font-size: 20px;
+user-select: none;
+color: rgb(50, 50, 50);
+}

@@ -1,0 +1,222 @@
+.updateActivity{
+width: 100%;
+height: auto;
+display: flex;
+}
+
+
+.rightSideStudent2{
+background-color: rgb(242, 242, 242);
+width: 81%;
+} 
+
+
+
+
+.updateActivity .rightSideStudent2 h3{
+width: 100%;
+margin-top: 2%;
+font-size: 16px;
+color: rgb(248, 0, 0);
+box-sizing: border-box;
+text-align: center;
+text-transform: uppercase;
+}
+.rightSideStudent2 .tables{
+margin: 0% 0% 0% 1%;
+width: 99%;
+height: 890px;
+overflow-x: hidden;
+overflow-y: auto;
+
+
+}
+
+/* search bar working */
+.rightSideStudent2 .tables .searchAllStudent{
+width: 100%;
+height: 80px;
+
+}
+
+
+
+
+
+.updateActivity .rightSideStudent2 h6{
+width: 100%;
+margin-top: 2%;
+font-size: 22px;
+color: rgb(54, 54, 54);
+box-sizing: border-box;
+padding-left: 90px;
+text-transform: uppercase;
+}
+.updateActivity .rightSideStudent2 h3{
+width: 100%;
+margin-top: 2%;
+font-size: 16px;
+color: rgb(248, 0, 0);
+box-sizing: border-box;
+text-align: center;
+text-transform: uppercase;
+}
+.updateActivity .addDataForm{
+width: 94%;
+margin-left: 3%;
+margin-top: 0%;
+padding-bottom: 0%;
+background-color: #fff;
+height: auto;
+}
+
+.updateActivity .addDataForm h1{
+padding-left: 3%;
+padding-top: 2%;
+font-size: 25px;
+color: rgb(75, 75, 75);
+}
+
+.rightSideStudent2 .tables .main-table{
+width: 94%;
+margin-left: 5%;
+height: auto;
+padding-bottom: 10px;
+overflow: hidden;
+
+}
+
+.rightSideStudent2 .tables .main-table .th{
+user-select: none;
+width: 900px;
+
+height: auto;
+}
+
+
+.rightSideStudent2 .tables .main-table .th div{
+list-style: none;
+height: 60px;
+display: inline-block;
+font-weight: 700;
+margin-left: 0%;
+box-sizing: border-box;
+font-size: 20px;
+line-height: 60px;
+border: 2px solid rgb(163, 163, 163);
+width: 320px;
+border-right: none;
+text-align: center;
+
+}
+
+
+
+
+
+.rightSideStudent2 .tables .main-table .td {
+width: 900px;
+position: relative;
+height: auto;
+cursor: pointer;
+z-index: 1;
+transition: all 0.3s;
+}
+.rightSideStudent2 .tables .main-table .td:hover{
+
+background-color: rgb(226, 226, 226);
+}
+
+.rightSideStudent2 .tables .main-table .td #set{
+display: none;
+position: absolute;
+top: 66%;
+z-index: 2;
+right: 10%;
+background-color: rgb(255, 255, 255);
+width: 150px;
+border: none;
+border-radius: 5px;
+box-shadow: 0px 0px 8px 0px rgb(105, 105, 105);
+height: 150px;
+}
+
+.rightSideStudent2 .tables .main-table .td #set li{
+
+display: block;
+width: 100%;
+margin-top: 5%;
+text-align: center;
+line-height: 40px;
+height: 40px;
+position: relative;
+font-size: 13px;
+cursor: pointer;
+transition: all 0.2s;
+}
+.rightSideStudent2 .tables .main-table .td #set li:hover{
+background-color: rgb(238, 238, 238);
+}
+
+.rightSideStudent2 .tables .main-table .td #set li #setIcon{
+position: absolute;
+top: 24%;
+left: 5%;
+line-height: 50px;
+font-size: 20px;
+z-index: 99;
+margin-left: 15%;
+color: rgb(49, 203, 2);
+}
+
+.rightSideStudent2 .tables .main-table .td div{
+list-style: none;
+height:60px;
+display: inline-block;
+
+margin-left: 0%;
+box-sizing: border-box;
+font-size: 20px;
+width: 320px;
+line-height: 60px;
+border: 2px solid rgb(163, 163, 163);
+border-right: none;
+
+text-align: center;
+}
+
+.rightSideStudent2 .tables .main-table .td #menu{
+color: red;
+}
+
+
+
+/* roll no */
+
+
+
+.rightSideStudent2 .tables .main-table .th #name,.rightSideStudent2 .tables .main-table .td #name{
+width: 300px;
+}
+.rightSideStudent2 .tables .main-table .th #age,.rightSideStudent2 .tables .main-table .td #age{
+width: 120px;
+}
+
+.rightSideStudent2 .tables .main-table .th #gender,.rightSideStudent2 .tables .main-table .td #gender{
+width: 110px;
+}
+.rightSideStudent2 .tables .main-table .th #email,.rightSideStudent2 .tables .main-table .td #email{
+width: 110px;
+}
+.rightSideStudent2 .tables .main-table .th #mobile,.rightSideStudent2 .tables .main-table .td #mobile{
+width: 170px;
+}
+
+
+.rightSideStudent2 .tables .main-table .th #op,.rightSideStudent2 .tables .main-table .td #op{
+position: relative;
+cursor: pointer;
+z-index: 1;
+width: 90px;
+border-right: 2px solid rgb(163, 163, 163);
+}

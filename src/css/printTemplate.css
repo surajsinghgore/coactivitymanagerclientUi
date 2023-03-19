@@ -1,0 +1,137 @@
+#button{
+width: 300px;
+margin-left: 10%;
+background-color: rgb(233, 62, 62);
+border: none;
+margin-top: 2%;
+font-size: 24px;
+border-radius: 30px;
+
+cursor: pointer;
+color: white;
+height: 50px;
+}
+#back{
+width: 300px;
+margin-left: 10%;
+background-color: rgb(184, 5, 187);
+border: none;
+margin-top: 2%;
+font-size: 24px;
+border-radius: 30px;
+
+cursor: pointer;
+color: white;
+height: 50px;
+}
+.demos{
+margin-left: 10%;
+margin-top: 10%;
+position: relative;
+width: 630px;
+height:350px;
+overflow: hidden;
+word-break: break-all;
+box-sizing: border-box;
+border: 2px solid rgb(43, 43, 43);
+}
+.demos .names{
+width: 100%;
+height: auto;
+text-align: right;
+}
+.demos .names h2{
+font-size: 18px;
+padding-right: 4%;
+
+}
+.demos .names p{
+margin-top: -3%;
+padding-right: 4%;
+}
+
+.demos .number{
+margin-top: 1%;
+width: 100%;
+height: auto;
+font-size: 15px;
+}
+.demos .number #no{
+text-align: left;
+width: 50%;
+padding-left: 4%;
+}
+
+.demos .number #rno{
+font-weight: 700;
+font-size: 22px;
+
+text-decoration: underline;
+}
+
+.demos .number #date{
+float: right;
+text-align: right;
+padding-right: 4%;
+padding-top: 2%;
+width: 50%;
+}
+
+
+.demos .number #date #d{
+font-weight: 700;
+font-size: 17x;
+
+text-decoration: underline;
+}
+.demos .msg{
+width: 92%;
+font-size: 18px;
+padding-left: 4%;
+line-height: 30px;
+padding-right: 4%;
+}
+.demos .msg #owner{
+font-weight: 600;
+padding-left: 2%;
+padding-right: 2%;
+text-decoration: underline;
+}
+
+.demos .msg #rupee{
+font-weight: 600;
+padding-left: 2%;
+width: 96%;
+
+word-wrap: break-word;
+padding-right: 2%;
+text-decoration: underline;
+}
+.demos  .bottom{
+width: 92%;
+position: absolute;
+bottom: 5%;
+left: 4%;
+font-size: 18px;
+}
+.demos   #game{
+font-weight: 700;
+font-size: 20px;
+padding-right: 4%;
+text-decoration: underline;
+}
+.demos  .bottom #amount{
+
+text-decoration: underline;
+font-weight: 400;
+padding-left: 2%;
+}
+.demos  .bottom #found{
+float: right;
+font-weight: 300;
+text-align: right;
+}
+.demos  .bottom #found #foundName{
+font-weight: 600;
+text-align: right;
+}

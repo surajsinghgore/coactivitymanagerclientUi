@@ -1,0 +1,203 @@
+.rightSideStudent .tables{
+margin: 4% 0% 3% 3%;
+width: 94%;
+
+height: 900px;
+overflow-y: auto;
+background-color: red;
+
+background-color: rgb(255, 255, 255);
+}
+
+/* search bar working */
+.rightSideStudent .tables .searchAllStudent{
+width: 100%;
+height: 80px;
+
+}
+
+
+
+
+
+.addStudent .rightSideStudent h6{
+width: 100%;
+margin-top: 2%;
+font-size: 22px;
+color: rgb(54, 54, 54);
+box-sizing: border-box;
+padding-left: 90px;
+text-transform: uppercase;
+}
+
+.addStudent .rightSideStudent h3{
+width: 100%;
+margin-top: 2%;
+font-size: 16px;
+color: rgb(248, 0, 0);
+box-sizing: border-box;
+text-align: center;
+text-transform: uppercase;
+}
+
+.rightSideStudent .tables .main-table{
+width: 94%;
+margin-left: 3%;
+height: auto;
+padding-bottom: 100px;
+overflow-x: auto;
+overflow-y: auto;
+}
+
+.rightSideStudent .tables .main-table .th{
+
+user-select: none;
+width: 2250px;
+height: auto;
+
+}
+
+
+.rightSideStudent .tables .main-table .th div{
+list-style: none;
+height: 60px;
+display: inline-block;
+font-weight: 700;
+margin-left: 0%;
+box-sizing: border-box;
+font-size: 20px;
+line-height: 60px;
+border: 2px solid rgb(163, 163, 163);
+width: 320px;
+border-right: none;
+text-align: center;
+
+}
+
+
+
+
+
+.rightSideStudent .tables .main-table .td {
+width: 2250px;
+
+position: relative;
+height: auto;
+z-index: 1;
+}
+.rightSideStudent .tables .main-table .td #set{
+display: none;
+position: absolute;
+top: 66%;
+z-index: 2;
+right: 10%;
+background-color: rgb(255, 255, 255);
+width: 150px;
+border: none;
+border-radius: 5px;
+box-shadow: 0px 0px 8px 0px rgb(105, 105, 105);
+height: 150px;
+}
+
+.rightSideStudent .tables .main-table .td #set li{
+
+display: block;
+width: 100%;
+margin-top: 5%;
+text-align: center;
+line-height: 40px;
+height: 40px;
+position: relative;
+font-size: 13px;
+cursor: pointer;
+transition: all 0.2s;
+}
+.rightSideStudent .tables .main-table .td #set li:hover{
+background-color: rgb(238, 238, 238);
+}
+
+.rightSideStudent .tables .main-table .td #set li #setIcon{
+position: absolute;
+top: 24%;
+left: 5%;
+line-height: 50px;
+font-size: 20px;
+z-index: 99;
+margin-left: 15%;
+color: rgb(49, 203, 2);
+}
+
+.rightSideStudent .tables .main-table .td div{
+list-style: none;
+height:60px;
+display: inline-block;
+
+margin-left: 0%;
+box-sizing: border-box;
+font-size: 20px;
+width: 320px;
+line-height: 60px;
+border: 2px solid rgb(163, 163, 163);
+border-right: none;
+
+text-align: center;
+}
+
+.rightSideStudent .tables .main-table .td #menu{
+color: red;
+}
+.rightSideStudent .tables .main-table .td img{
+width: 30px;
+margin-left: 5%;
+}
+
+
+
+/* roll no */
+
+.rightSideStudent .tables .main-table .th #rn,.rightSideStudent .tables .main-table .td #rn{
+width: 150px;
+}
+.rightSideStudent .tables .main-table .th #profile,.rightSideStudent .tables .main-table .td #profile{
+width: 190px;
+}
+
+.rightSideStudent .tables .main-table .th #name,.rightSideStudent .tables .main-table .td #name{
+width: 250px;
+}
+.rightSideStudent .tables .main-table .th #age,.rightSideStudent .tables .main-table .td #age{
+width: 120px;
+}
+
+.rightSideStudent .tables .main-table .th #gender,.rightSideStudent .tables .main-table .td #gender{
+width: 170px;
+}
+.rightSideStudent .tables .main-table .th #email,.rightSideStudent .tables .main-table .td #email{
+width: 370px;
+}
+.rightSideStudent .tables .main-table .th #mobile,.rightSideStudent .tables .main-table .td #mobile{
+width: 200px;
+}
+.rightSideStudent .tables .main-table .th #dob,.rightSideStudent .tables .main-table .td #dob{
+width: 170px;
+}
+.rightSideStudent .tables .main-table .th #class,.rightSideStudent .tables .main-table .td #class{
+width: 100px;
+}
+.rightSideStudent .tables .main-table .th #section,.rightSideStudent .tables .main-table .td #section{
+width: 100px;
+}
+.rightSideStudent .tables .main-table .th #year,.rightSideStudent .tables .main-table .td #year{
+width: 130px;
+}
+.rightSideStudent .tables .main-table .th #blood,.rightSideStudent .tables .main-table .td #blood{
+width: 150px;
+z-index: 1;
+
+}
+.rightSideStudent .tables .main-table .th #address,.rightSideStudent .tables .main-table .td #address{
+width: 400px;
+z-index: 1;
+border: 2px solid rgb(163, 163, 163);
+}
+

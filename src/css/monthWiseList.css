@@ -1,0 +1,58 @@
+.searchBox{
+width: 93%;
+margin-top: 3%;
+height: auto;
+margin-bottom: 8%;
+}
+.searchBox select{
+width:320px;
+border: none;
+margin-right: 2%;
+outline: none;
+margin-left: 2%;
+font-size: 19px;
+height: 40px;
+color: rgb(116, 116, 116);
+text-align: center;
+background-color: rgb(237, 237, 237);
+
+}
+.searchBox h4{
+font-size: 17px;
+color: rgb(60, 161, 102);
+padding-left: 5%;
+}
+
+.searchBox input{
+margin-left: 0%;
+width:200px;
+border: none;
+
+outline: none;
+font-size: 17px;
+height: 40px;
+text-align: center;
+border: none;
+background-color: rgb(237, 237, 237);
+}
+.searchBox button{
+margin-left: 2%;
+width: 130px;
+height: 40px;
+font-size: 14px;
+color: white;
+border: none;
+cursor: pointer;
+font-weight: 400;
+border-radius: 5px;
+background-color: rgb(0 165 81);
+transition: all 0.4s;
+}
+
+.searchBox button:hover{
+border: 1px solid black;
+background: none;
+color: red;
+box-shadow: 0px 0px 12px 1px rgb(148, 148, 148);
+}
+

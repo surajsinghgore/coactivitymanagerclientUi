@@ -1,0 +1,219 @@
+.updateStudents{
+
+width: 100%;
+height: auto;
+display: flex;
+}
+.updateStudent h6{
+width: 100%;
+margin-top: 2%;
+font-size: 22px;
+color: rgb(54, 54, 54);
+box-sizing: border-box;
+padding-left: 90px;
+}
+.updateStudent{
+width: 81%;
+background-color: rgb(243, 243, 243);
+}
+.updateStudent .tables{
+margin: 4% 0% 0% 3%;
+width: 94%;
+
+height: auto;
+overflow: auto;
+background-color: rgb(255, 255, 255);
+}
+
+/* search bar working */
+.updateStudent .tables .searchAllStudent{
+width: 100%;
+height: 80px;
+
+}
+
+.updateStudent .tables .main-table{
+width: 92%;
+margin-left:8%;
+height: auto;
+box-sizing: border-box;
+padding-bottom: 100px;
+overflow-x: hidden;
+overflow-y: auto;
+}
+.updateStudent .tables .main-table h6{
+font-size: 18px;
+width: 70%;
+color: red;
+text-align: left;
+}
+
+.updateStudent .tables .main-table .th{
+
+width: 860px;
+
+
+height: auto;
+
+}
+.updateStudent .tables .main-table .th div{
+list-style: none;
+height: 60px;
+display: inline-block;
+font-weight: 700;
+margin-left: 0%;
+box-sizing: border-box;
+font-size: 20px;
+line-height: 60px;
+border: 2px solid rgb(163, 163, 163);
+width: 320px;
+border-right: none;
+text-align: center;
+
+}
+
+
+
+
+.updateStudent .tables .main-table .td {
+width: 860px;
+
+transition: all 0.3s;
+position: relative;
+height: auto;
+z-index: 1;
+}
+
+.updateStudent .tables .main-table .td:nth-child(odd) {
+ border: none;
+}
+
+
+
+.updateStudent .tables .main-table .td:hover{
+cursor: pointer;
+background-color: rgb(238, 238, 238);
+}
+
+.updateStudent .tables .main-table .td #set{
+display: none;
+position: absolute;
+top: 66%;
+z-index: 2;
+right: 10%;
+background-color: rgb(255, 255, 255);
+width: 150px;
+border: none;
+border-radius: 5px;
+box-shadow: 0px 0px 8px 0px rgb(105, 105, 105);
+height: 150px;
+}
+
+.updateStudent .tables .main-table .td #set li{
+
+display: block;
+width: 100%;
+margin-top: 5%;
+text-align: center;
+line-height: 40px;
+height: 40px;
+position: relative;
+font-size: 13px;
+cursor: pointer;
+transition: all 0.2s;
+}
+.updateStudent .tables .main-table .td #set li:hover{
+background-color: rgb(238, 238, 238);
+}
+
+.updateStudent .tables .main-table .td #set li #setIcon{
+position: absolute;
+top: 24%;
+left: 5%;
+line-height: 50px;
+font-size: 20px;
+z-index: 99;
+margin-left: 15%;
+color: rgb(49, 203, 2);
+}
+
+.updateStudent .tables .main-table .td div{
+list-style: none;
+height:60px;
+display: inline-block;
+
+margin-left: 0%;
+box-sizing: border-box;
+font-size: 20px;
+width: 320px;
+line-height: 60px;
+border: 2px solid rgb(163, 163, 163);
+border-right: none;
+
+text-align: center;
+}
+
+.updateStudent .tables .main-table .td #menu{
+color: red;
+}
+.updateStudent .tables .main-table .td img{
+width: 30px;
+margin-left: 5%;
+}
+
+
+
+/* roll no */
+
+.updateStudent .tables .main-table .th #rn,.updateStudent .tables .main-table .td #rn{
+width: 150px;
+}
+.updateStudent .tables .main-table .th #profile,.updateStudent .tables .main-table .td #profile{
+width: 190px;
+}
+
+.updateStudent .tables .main-table .th #name,.updateStudent .tables .main-table .td #name{
+width: 250px;
+}
+.updateStudent .tables .main-table .th #age,.updateStudent .tables .main-table .td #age{
+width: 120px;
+}
+
+.updateStudent .tables .main-table .th #gender,.updateStudent .tables .main-table .td #gender{
+width: 170px;
+}
+.updateStudent .tables .main-table .th #email,.updateStudent .tables .main-table .td #email{
+width: 370px;
+}
+.updateStudent .tables .main-table .th #mobile,.updateStudent .tables .main-table .td #mobile{
+width: 200px;
+}
+.updateStudent .tables .main-table .th #dob,.updateStudent .tables .main-table .td #dob{
+width: 170px;
+}
+.updateStudent .tables .main-table .th #class,.updateStudent .tables .main-table .td #class{
+width: 100px;
+}
+.updateStudent .tables .main-table .th #section,.updateStudent .tables .main-table .td #section{
+width: 100px;
+}
+.updateStudent .tables .main-table .th #year,.updateStudent .tables .main-table .td #year{
+width: 130px;
+}
+.updateStudent .tables .main-table .th #blood,.updateStudent .tables .main-table .td #blood{
+width: 150px;
+z-index: 1;
+
+}
+.updateStudent .tables .main-table .th #address,.updateStudent .tables .main-table .td #address{
+width: 400px;
+z-index: 1;
+
+}
+.updateStudent .tables .main-table .th #op,.updateStudent .tables .main-table .td #op{
+position: relative;
+cursor: pointer;
+z-index: 1;
+width: 90px;
+border: 2px solid rgb(163, 163, 163);
+}

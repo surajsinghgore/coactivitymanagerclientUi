@@ -1,0 +1,263 @@
+.updateInsertRecords{
+
+width: 100%;
+display: flex;
+}
+.updateInsertRecords .updateInsertRecordsRight{
+background-color: rgb(243, 243, 243);
+width: 81%;
+}
+
+.updateInsertRecords .updateInsertRecordsRight h1{
+
+text-align: center;
+font-size: 22px;
+color: rgb(243, 5, 5);
+
+}
+
+
+.updateInsertRecords .updateInsertRecordsRight .tt{
+position: relative;
+width: 96%;
+margin-left: 2%;
+height: 500px;
+padding-left: 5%;
+margin-bottom: 5%;
+padding-bottom: 4%;
+overflow-x: hidden;
+overflow-y: auto;
+box-sizing: border-box;
+background-color: rgb(255, 255, 255);
+}
+
+
+.updateInsertRecords .updateInsertRecordsRight .tt::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.updateInsertRecords .updateInsertRecordsRight .tt::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.updateInsertRecords .updateInsertRecordsRight .tt::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.updateInsertRecords .updateInsertRecordsRight .tt::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
+
+.updateInsertRecords .updateInsertRecordsRight .tt .th2{
+width: 93%;
+ box-sizing: border-box;
+display: flex;
+overflow: hidden;
+    z-index: 10;
+color: rgb(255, 255, 255);
+background-color: rgb(83, 83, 83);
+overflow: hidden;
+margin-bottom: 2%;
+}
+
+
+
+
+.updateInsertRecords .updateInsertRecordsRight .tt .RollNumber2{
+width: 120px;
+text-align: center;
+height: 40px;
+line-height: 40px;
+font-size: 16px;
+font-weight: 700;
+
+}
+
+.updateInsertRecords .updateInsertRecordsRight .tt .name2{
+width: 340px;
+text-align: center;
+height: 40px;
+line-height: 40px;
+font-size: 16px;
+font-weight: 700;
+
+
+}
+.updateInsertRecords .updateInsertRecordsRight .tt .age2{
+width: 120px;
+text-align: center;
+height: 40px;
+line-height: 40px;
+font-size: 16px;
+font-weight: 700;
+
+
+}
+.updateInsertRecords .updateInsertRecordsRight .tt .class2{
+width: 150px;
+text-align: center;
+height: 40px;
+line-height: 40px;
+font-size: 16px;
+font-weight: 700;
+
+
+}
+.updateInsertRecords .updateInsertRecordsRight .tt .section2{
+width: 100px;
+text-align: center;
+height: 40px;
+line-height: 40px;
+font-size: 16px;
+font-weight: 700;
+
+
+}
+
+.updateInsertRecords .updateInsertRecordsRight .tt .gender2{
+width: 130px;
+text-align: center;
+height: 40px;
+line-height: 40px;
+font-size: 16px;
+font-weight: 700;
+
+
+}
+
+
+
+
+.updateInsertRecords .updateInsertRecordsRight .tt .td2{
+position: relative;
+top: 0;
+left: 0;
+overflow: hidden;
+box-sizing: border-box;
+display: flex;
+width: 93%;
+height: auto;
+border: 1px solid rgb(77, 77, 77);
+
+}
+
+.updateInsertRecords .updateInsertRecordsRight .tt .td2:nth-child(odd) {
+  background: rgb(50, 50, 50);
+  color: white;
+}
+
+
+
+
+
+.updateInsertRecords .updateInsertRecordsRight .tt #show{
+position: relative;
+width: 93%;
+margin-left: 0%;
+height: auto;
+margin-top: 0%;
+margin-bottom: 2%;
+border: 1px solid rgb(208, 208, 208);
+box-sizing: border-box;
+background-color: rgb(255, 245, 245);
+}
+
+
+
+.updateInsertRecords .updateInsertRecordsRight .tt #show .th3{
+width: 100%;
+ box-sizing: border-box;
+display: flex;
+color: rgb(0, 0, 0);
+background-color: rgb(212, 212, 212);
+overflow: hidden;
+
+}
+.updateInsertRecords .updateInsertRecordsRight .tt #show  .activityname3{
+width: 340px;
+text-align: center;
+
+height: 40px;
+line-height: 40px;
+font-size: 16px;
+font-weight: 700;
+
+}
+
+.updateInsertRecords .updateInsertRecordsRight .tt #show .fee3{
+width: 170px;
+text-align: center;
+height: 40px;
+line-height: 40px;
+font-size: 16px;
+font-weight: 700;
+
+
+}
+.updateInsertRecords .updateInsertRecordsRight .tt #show .date3{
+width: 130px;
+text-align: center;
+height: 40px;
+line-height: 40px;
+font-size: 16px;
+font-weight: 700;
+
+
+}
+.updateInsertRecords .updateInsertRecordsRight .tt #show .month3{
+width: 130px;
+text-align: center;
+height: 40px;
+line-height: 40px;
+font-size: 16px;
+font-weight: 700;
+
+
+}
+.updateInsertRecords .updateInsertRecordsRight .tt #show .year3{
+width: 130px;
+text-align: center;
+height: 40px;
+line-height: 40px;
+font-size: 16px;
+font-weight: 700;
+
+
+}
+
+
+.updateInsertRecords .updateInsertRecordsRight .tt #show .opt3{
+width: 160px;
+text-align: center;
+height: 40px;
+line-height: 40px;
+font-size: 16px;
+font-weight: 700;
+}
+.updateInsertRecords .updateInsertRecordsRight .tt #show .opt3 #icon{
+font-size: 25px;
+color: red;
+}
+
+.updateInsertRecords .updateInsertRecordsRight .tt #show .td3{
+position: relative;
+top: 0;
+left: 0;
+overflow: hidden;
+box-sizing: border-box;
+display: flex;
+width: 100%;
+height: auto;
+
+}
+
+.updateInsertRecords .updateInsertRecordsRight .tt #show .td3:hover{
+background-color: rgb(241, 241, 241);
+cursor: pointer;
+}
